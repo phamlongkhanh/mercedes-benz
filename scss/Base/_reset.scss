@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: $color-black-0;
+    font-family: 'Roboto', sans-serif;
+    @include styleText($color-white-0,$fs-0,$fw-normal);
+    line-height: $line-height-0;
+}

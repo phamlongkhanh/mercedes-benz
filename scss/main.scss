@@ -1,0 +1,17 @@
+// đi theo thứ tự như vậy luôn.
+//hepler
+@import "./Hepler/variables";
+@import "./Hepler/mixin";
+@import "./Hepler/extend";
+@import "./Hepler/function";
+
+//vendor (chỉ import file scss của thư viện)
+
+//Base
+@import "./Base/reset";
+@import "./Base/customize";
+
+//component
+@import "./Component/button";
+
+@import "./Layout/header";

@@ -1,0 +1,45 @@
+//khai báo mixin để thêm css cho các kiểu chữ
+@mixin styleText($color, $fs, $fw) {
+    color: $color;
+    font-size: $fs;
+    font-weight: $fw;
+}
+@mixin styleButton($bg-color, $bd-color, $radius, $py, $px) {
+    background-color: $bg-color;
+    border: 1px solid $bd-color;
+    border-radius: $radius;
+    padding: $py $px;
+}
+@mixin styleHoverButton($bg-color, $bd-color, $color) {
+    background-color: $bg-color;
+    border-color: $bd-color;
+    color: $color;
+}
+//Mixin xử lý responsive
+//$screen: tên màn hình cần responsive (small, medium, )
+@mixin responsive($screen) {
+    //kiểm tra tên màn hình có tồn tại hay ko
+    //câu lệnh điều kiện
+    //giả xử lý mà hình (768px)
+    //map-has-key giúp kiểm tra xem màn hình có tồn tại hay chưa, nếu có tồn tại thì trả lại là true, nếu sai là false
+    //map chứa tên biến đang có danh sách màn hình cần lấy
+    //key: tên màn hình cần tìm
+    @if (map-has-key($map: $breakpoints, $key: $screen)) {
+        //xử lý nếu tên màn hình hợp lệ
+        //lấy giá trị của màn hình truyền được
+        //$value: chứa giá trị màn hình lấy được
+        //map-get: lấy giá trị của màn hình tìm được
+        //$value: 768px
+        $value: map-get(
+            $map: $breakpoints,
+            $key: $screen,
+        );
+        //code responsive của css3
+        @media screen and (min-width: $value) {
+            @content;
+        }
+    } @else {
+        //xử lý không tên màn hình sai
+        @warn "màn hình chưa khai báo";
+    }
+}
