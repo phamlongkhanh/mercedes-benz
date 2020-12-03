@@ -1,0 +1,36 @@
+mercedes layout
+
+/**/
+1.ưu tiên sử dụng bootstrap nha
+2.làm responsive luôn nha
+3. upload file lên github để sử dụng chung.
+/**/
+
+1. header menu (bootstrap có)
+2. carousel + form search (bootstrap co)
+3. welcome
+4. catagory (dùng col-3)
+5. more menu (more topic, shopping, all about cars, discover more)
+6. register email receive (stay informed)
+7. logo partner ();
+8. footer + back to top
+9. supmenu icon canh phải
+
+hiệu ứng hiện nội dung khi cuộn trang
+https://michalsnik.github.io/aos/?fbclid=IwAR2jvZAQSguz0XDZhAmk15l-DCaU8bOOMatOmuQdsHc5k_jMlGx9FlOK62A
+
+hiệu ứng hình của phần catagory
+https://tympanus.net/Development/HoverEffectIdeas/index.html
+
+hiệu ứng xử lý menu ẩn hiện khi scroll
+https://www.w3schools.com/howto/howto_js_navbar_hide_scroll.asp
+
+đây là responsive menu cho ai ko thích bootstrap
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_topnav
+
+chụp lại trang web đang làm
+https://chrome.google.com/webstore/detail/gofullpage-full-page-scre/fdpohaocaechififmbbbbbknoalclacl?fbclid=IwAR0s67c5EWQ5bGWYkMJCGA49Ze4oq9hU_Yv2oJhIPTuQPm30dD-S81jLzVA
+
+
+lấy hình của 1 trang web
+https://chrome.google.com/webstore/detail/image-picker/bhibldekjicdbnjeeecmgoogcihoalhe?fbclid=IwAR3el3LLi6TMXjT27_WNX0d49nTUMPBfLVzJ0p7K1_3GgqOoKazACO_cwyg
