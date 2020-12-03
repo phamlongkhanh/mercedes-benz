@@ -12,4 +12,14 @@ body {
   font-weight: normal;
   line-height: 1;
 }
+
+a {
+  text-decoration: none;
+}
+
+.container-outer {
+  margin: 0 auto;
+  max-width: 1680px;
+  width: 100%;
+}
 /*# sourceMappingURL=main.css.map */
