@@ -9,3 +9,8 @@ body{
     @include styleText($color-white-0,$fs-0,$fw-normal);
     line-height: $line-height-0;
 }
+
+a{
+    text-decoration: none;
+}
+
