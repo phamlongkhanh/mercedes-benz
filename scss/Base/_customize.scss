@@ -3,3 +3,39 @@
     max-width: 1680px;
     width: 100%;
 }
+.marginSection{
+    width: calc(100% - 60px);
+    margin-left: auto;
+    margin-right: auto;
+}
+.container-inter{
+    margin: 0 auto;
+    padding-left: 1px;
+    padding-right: 1px;
+    width: 100%;
+}
+@include responsive ('extra-small'){
+    .container-inter{
+        max-width: 420px;
+    }
+}
+@include responsive ('medium'){
+    .container-inter{
+        max-width: 708px;
+    }
+}
+@include responsive ('large'){
+    .container-inter{
+        max-width: 964px;
+    }
+}
+@include responsive ('extra-large'){
+    .container-inter{
+        max-width: 1280px;
+    }
+}
+@include responsive ('super-large'){
+    .container-inter{
+        max-width: 1440px;
+    }
+}

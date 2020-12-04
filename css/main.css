@@ -17,9 +17,71 @@ a {
   text-decoration: none;
 }
 
+ul li {
+  list-style-type: none;
+}
+
 .container-outer {
   margin: 0 auto;
   max-width: 1680px;
+  width: 100%;
+}
+
+.marginSection {
+  width: calc(100% - 60px);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.container-inter {
+  margin: 0 auto;
+  padding-left: 1px;
+  padding-right: 1px;
+  width: 100%;
+}
+
+@media screen and (min-width: 480px) {
+  .container-inter {
+    max-width: 420px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .container-inter {
+    max-width: 708px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .container-inter {
+    max-width: 964px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container-inter {
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  .container-inter {
+    max-width: 1440px;
+  }
+}
+
+.welcome .welcomeImg {
+  padding: 0.3em;
+}
+
+.welcome .welcomeImg img {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+}
+
+.category .categoryImg img {
+  display: block;
   width: 100%;
 }
 /*# sourceMappingURL=main.css.map */
