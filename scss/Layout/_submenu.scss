@@ -1,0 +1,55 @@
+.subMenu {
+    background-color: $color-black-0;
+    height: 90px;
+    .subMenuRight {
+        position: fixed;
+        top:35%;
+        right: 0;
+        .rightItem {
+            //position: fixed;
+            //top: 35%;
+            border-top-left-radius: 3px;
+            background-color: #252525;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            height: 44px;
+            width: 240px;
+            cursor: pointer;
+           .fa,.fab{
+               line-height: 44px;
+               font-size: 25px;
+               margin: 0 10px;
+               vertical-align: middle;
+           }
+        }
+        .rightItem1,.rightItem2,.rightItem3{
+            transform: translateX(195px);
+            transition: all .5s;
+            &:hover{
+                transform: translateX(0);
+            }
+        }
+    }
+    .subMenuBottom{
+        position: fixed;
+        display: flex;
+        width: 98%;
+        bottom: 0;
+        margin:0 5px;
+        .rightItem{
+            text-align: center;
+            background-color: #252525;
+            height: 60px;
+            width: 100%;
+            margin: 0 1px;
+            padding: 10px 2px 0 2px;
+            border-top-right-radius: 3px;
+            font-size: 11px;
+            cursor: pointer;
+            .fa{
+                font-size: 25px;
+                margin-bottom: 5px;
+            }
+        }
+    }
+}

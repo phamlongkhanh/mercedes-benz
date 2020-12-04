@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+body,html{
     background: $color-black-0;
     font-family: 'Roboto', sans-serif;
     @include styleText($color-white-0,$fs-0,$fw-normal);
@@ -12,8 +12,13 @@ body{
 
 a{
     text-decoration: none;
+    color: $color-white-0;
+}
+a:hover{
+    text-decoration: none;
+    color: $color-blue-1;
 }
 
-ul li{
+ul{
     list-style-type: none;
 }

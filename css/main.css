@@ -4,7 +4,7 @@
   box-sizing: border-box;
 }
 
-body {
+body, html {
   background: #000;
   font-family: 'Roboto', sans-serif;
   color: #fff;
@@ -15,9 +15,15 @@ body {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
-ul li {
+a:hover {
+  text-decoration: none;
+  color: #00adef;
+}
+
+ul {
   list-style-type: none;
 }
 
@@ -83,5 +89,67 @@ ul li {
 .category .categoryImg img {
   display: block;
   width: 100%;
+}
+
+.subMenu {
+  background-color: #000;
+  height: 90px;
+}
+
+.subMenu .subMenuRight {
+  position: fixed;
+  top: 35%;
+  right: 0;
+}
+
+.subMenu .subMenuRight .rightItem {
+  border-top-left-radius: 3px;
+  background-color: #252525;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  height: 44px;
+  width: 240px;
+  cursor: pointer;
+}
+
+.subMenu .subMenuRight .rightItem .fa, .subMenu .subMenuRight .rightItem .fab {
+  line-height: 44px;
+  font-size: 25px;
+  margin: 0 10px;
+  vertical-align: middle;
+}
+
+.subMenu .subMenuRight .rightItem1, .subMenu .subMenuRight .rightItem2, .subMenu .subMenuRight .rightItem3 {
+  transform: translateX(195px);
+  transition: all .5s;
+}
+
+.subMenu .subMenuRight .rightItem1:hover, .subMenu .subMenuRight .rightItem2:hover, .subMenu .subMenuRight .rightItem3:hover {
+  transform: translateX(0);
+}
+
+.subMenu .subMenuBottom {
+  position: fixed;
+  display: flex;
+  width: 98%;
+  bottom: 0;
+  margin: 0 5px;
+}
+
+.subMenu .subMenuBottom .rightItem {
+  text-align: center;
+  background-color: #252525;
+  height: 60px;
+  width: 100%;
+  margin: 0 1px;
+  padding: 10px 2px 0 2px;
+  border-top-right-radius: 3px;
+  font-size: 11px;
+  cursor: pointer;
+}
+
+.subMenu .subMenuBottom .rightItem .fa {
+  font-size: 25px;
+  margin-bottom: 5px;
 }
 /*# sourceMappingURL=main.css.map */
