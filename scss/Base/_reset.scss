@@ -16,9 +16,12 @@ a{
 }
 a:hover{
     text-decoration: none;
-    color: $color-blue-1;
+    color: $color-blue-1 !important; 
 }
 
 ul{
     list-style-type: none;
+}
+h3{
+    @include styleText($color-white-0,$fs-5 + 4,$fw-normal);
 }

@@ -1,0 +1,8 @@
+footer{
+    @include styleText($color-black-1,$fs-0,$fw-normal);
+    .footerList{
+        ul{
+            display: flex;
+        }
+    }
+}

@@ -1,0 +1,9 @@
+.moreInfo{
+    @include styleText($color-black-1,$fs-0,$fw-normal);
+}
+.moreInfoContent{
+    display: flex;
+}
+.moreInfoItem{
+    width: 25%;
+}
