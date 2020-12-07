@@ -29,6 +29,16 @@
     right: 0px;
    }
 }
+.space{
+    height: 1rem;
+    width: 100%;
+}
+.active{
+    color: $color-blue-1;
+}
+div.space.spaceExtra{
+    height: 2.5rem;
+}
 @include responsive ('extra-small'){
     .container-inter{
         max-width: 420px;

@@ -1,8 +1,39 @@
 footer{
     @include styleText($color-black-1,$fs-0,$fw-normal);
     .footerList{
+        margin-left: 0;
+        margin-right: 0;
         ul{
             display: flex;
         }
+        .footerItem4{
+            a{
+                color: $color-black-1;
+            }
+            text-align: right; 
+        }
+    }
+}
+.footerItem{
+    a{
+        color: $color-black-1;
+    }
+   display: flex;
+   justify-content: flex-end;
+   flex-wrap: wrap;
+   
+   li{
+       margin-right: 20px;
+   }
+}
+@media (max-width:767.98px){
+    .footerItem1{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .footerItem{
+        display: flex;
+        justify-content: flex-start;
     }
 }

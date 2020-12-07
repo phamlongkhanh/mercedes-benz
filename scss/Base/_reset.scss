@@ -25,3 +25,7 @@ ul{
 h3{
     @include styleText($color-white-0,$fs-5 + 4,$fw-normal);
 }
+p{
+    margin-top: 0;
+    margin-bottom: 1rem;
+}

@@ -33,6 +33,11 @@ h3 {
   font-weight: normal;
 }
 
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
 .container-outer {
   margin: 0 auto;
   max-width: 1680px;
@@ -67,6 +72,19 @@ h3 {
   left: 0px;
   position: absolute;
   right: 0px;
+}
+
+.space {
+  height: 1rem;
+  width: 100%;
+}
+
+.active {
+  color: #00adef;
+}
+
+div.space.spaceExtra {
+  height: 2.5rem;
 }
 
 @media screen and (min-width: 480px) {
@@ -270,7 +288,46 @@ footer {
   font-weight: normal;
 }
 
+footer .footerList {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 footer .footerList ul {
   display: flex;
+}
+
+footer .footerList .footerItem4 {
+  text-align: right;
+}
+
+footer .footerList .footerItem4 a {
+  color: #999;
+}
+
+.footerItem {
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+
+.footerItem a {
+  color: #999;
+}
+
+.footerItem li {
+  margin-right: 20px;
+}
+
+@media (max-width: 767.98px) {
+  .footerItem1 {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+  }
+  .footerItem {
+    display: flex;
+    justify-content: flex-start;
+  }
 }
 /*# sourceMappingURL=main.css.map */
