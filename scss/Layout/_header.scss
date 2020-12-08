@@ -7,14 +7,14 @@ header {
         .header__logo {
             position: absolute;
             top: 22px;
-            img:first-child{
+            img:first-child {
                 width: 64px;
                 height: 64px;
             }
-            img :last-child{
+            img:last-child {
                 height: 28px;
                 width: 112px;
-                margin-top: 20px;
+                margin: 30px 0px 0px 57px;
             }
         }
         .header__language {
@@ -24,8 +24,24 @@ header {
         }
         .header__menu {
             position: absolute;
-            top: 50px;
+            top: 60px;
             right: 0px;
+            .navbar {
+                .collapse {
+                    .navbar-nav {
+                        .nav-item {
+                            margin:0 18px;
+                            .nav-link {
+                                @include styleText($color-white-0, $fs-2, $fw-normal);
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
         }
     }
 }
+
+
+// sdfsfsdf/d/

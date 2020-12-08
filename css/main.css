@@ -38,10 +38,10 @@ header .header__container .header__logo img:first-child {
   height: 64px;
 }
 
-header .header__container .header__logo img :last-child {
+header .header__container .header__logo img:last-child {
   height: 28px;
   width: 112px;
-  margin-top: 20px;
+  margin: 30px 0px 0px 57px;
 }
 
 header .header__container .header__language {
@@ -52,7 +52,18 @@ header .header__container .header__language {
 
 header .header__container .header__menu {
   position: absolute;
-  top: 50px;
+  top: 60px;
   right: 0px;
+}
+
+header .header__container .header__menu .navbar .collapse .navbar-nav .nav-item {
+  margin: 0 18px;
+}
+
+header .header__container .header__menu .navbar .collapse .navbar-nav .nav-item .nav-link {
+  color: #fff;
+  font-size: 16px;
+  font-weight: normal;
+  padding: 0;
 }
 /*# sourceMappingURL=main.css.map */
