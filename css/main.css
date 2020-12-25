@@ -108,5 +108,6 @@ header .header__container .header__menu .navbar .collapse .navbar-nav .nav-item 
 
 header .header__container .header__menu i {
   padding-left: 15px;
+  cursor: pointer;
 }
 /*# sourceMappingURL=main.css.map */
